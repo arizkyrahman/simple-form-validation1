@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form validation</title>
+
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header form -->
+      <div class="header">
+        <h2>create account</h2>
+      </div>
+
+      <!-- form -->
+      <form class="form" id="form">
+        <div class="form-control">
+          <label for="username">username</label>
+          <input type="text" placeholder="ddoskodw14" id="username" />
+          <i class="fa fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>error massage</small>
+        </div>
+
+        <div class="form-control">
+          <label for="username">email</label>
+          <input type="email" placeholder="ascda@gasda.com" id="email" />
+          <i class="fa fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>error massage</small>
+        </div>
+
+        <div class="form-control">
+          <label for="username">password</label>
+          <input type="password" placeholder="Password" id="password" />
+          <i class="fa fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>error massage</small>
+        </div>
+
+        <div class="form-control">
+          <label for="username">Re-Enter Password</label>
+          <input
+            type="password"
+            placeholder="Re-Enter Password"
+            id="password2"
+          />
+          <i class="fa fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>error massage</small>
+        </div>
+
+        <!-- form button -->
+        <button>submit</button>
+      </form>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/e518a06a41.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
